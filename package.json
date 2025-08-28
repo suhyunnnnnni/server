@@ -8,8 +8,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "ubiaccess-framework": "^1.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhyunnnnnni/server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suhyunnnnnni/server/issues"
+  },
+  "homepage": "https://github.com/suhyunnnnnni/server#readme",
+  "description": ""
 }

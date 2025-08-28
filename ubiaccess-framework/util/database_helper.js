@@ -39,7 +39,7 @@ class DatabaseHelper {
         
         const queryParams = {
             sql: sql,
-            sqlParams: []
+            sqlParams: [params.user_id]
         }
         const rows = await this.database.query(queryParams);
 
@@ -62,7 +62,7 @@ class DatabaseHelper {
         
         const queryParams = {
             sql: sql,
-            sqlParams: []
+            sqlParams: [params.user_id]
         }
         const rows = await this.database.query(queryParams);
 
