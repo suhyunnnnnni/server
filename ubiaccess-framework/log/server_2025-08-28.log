@@ -1,0 +1,52 @@
+2025-08-28 09:08:59.458 - INFO: [logger.js:246:9] service loader called.
+2025-08-28 09:08:59.469 - INFO: [logger.js:246:9] controller loader called.
+2025-08-28 09:08:59.470 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-28 09:08:59.471 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-28 09:08:59.625 - INFO: [logger.js:246:9] Http Server started.
+2025-08-28 09:08:59.626 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-28 09:08:59.627 - INFO: [logger.js:246:9] Namespace -> ::_8001_11072
+2025-08-28 09:08:59.630 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-28 09:09:38.572 - DEBUG: [logger.js:246:9] user::add 호출됨
+2025-08-28 09:09:38.573 - DEBUG: [logger.js:246:9] POST /user/v1/add requested
+2025-08-28 09:09:38.573 - DEBUG: [logger.js:246:9] PARAMS -> {"username":"do","password":"do"}
+2025-08-28 09:09:38.595 - DEBUG: [logger.js:246:9] SQL -> insert into test.user(username, password)
+                values
+                ('do', 'do')
+2025-08-28 09:09:38.595 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_DUP_ENTRY: Duplicate entry 'do' for key 'username'
+2025-08-28 09:12:42.447 - DEBUG: [logger.js:246:9] user::read 호출됨
+2025-08-28 09:12:42.448 - DEBUG: [logger.js:246:9] POST /user/v1/read requested
+2025-08-28 09:12:42.448 - DEBUG: [logger.js:246:9] PARAMS -> {"username":"do","password":"do"}
+2025-08-28 09:12:42.451 - DEBUG: [logger.js:246:9] SQL -> select id, username, password
+                from test.user
+                where id= :ID
+2025-08-28 09:12:42.451 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':ID' at line 3
+2025-08-28 09:14:12.096 - INFO: [logger.js:246:9] service loader called.
+2025-08-28 09:14:12.106 - INFO: [logger.js:246:9] controller loader called.
+2025-08-28 09:14:12.107 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-28 09:14:12.108 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-28 09:14:12.276 - INFO: [logger.js:246:9] Http Server started.
+2025-08-28 09:14:12.277 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-28 09:14:12.278 - INFO: [logger.js:246:9] Namespace -> ::_8001_14928
+2025-08-28 09:14:12.283 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-28 09:14:36.590 - DEBUG: [logger.js:246:9] user::read 호출됨
+2025-08-28 09:14:36.590 - DEBUG: [logger.js:246:9] POST /user/v1/read requested
+2025-08-28 09:14:36.591 - DEBUG: [logger.js:246:9] PARAMS -> {"username":"do","password":"do"}
+2025-08-28 09:14:36.607 - DEBUG: [logger.js:246:9] SQL -> select id, username, password
+                from test.user
+                where user= 'do' and password = 'do'
+2025-08-28 09:14:36.608 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_BAD_FIELD_ERROR: Unknown column 'user' in 'WHERE'
+2025-08-28 09:18:08.241 - INFO: [logger.js:246:9] service loader called.
+2025-08-28 09:18:08.252 - INFO: [logger.js:246:9] controller loader called.
+2025-08-28 09:18:08.253 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-28 09:18:08.253 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-28 09:18:08.410 - INFO: [logger.js:246:9] Http Server started.
+2025-08-28 09:18:08.411 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-28 09:18:08.412 - INFO: [logger.js:246:9] Namespace -> ::_8001_16584
+2025-08-28 09:18:08.415 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-28 09:18:31.168 - DEBUG: [logger.js:246:9] user::read 호출됨
+2025-08-28 09:18:31.169 - DEBUG: [logger.js:246:9] POST /user/v1/read requested
+2025-08-28 09:18:31.170 - DEBUG: [logger.js:246:9] PARAMS -> {"username":"do","password":"do"}
+2025-08-28 09:18:31.185 - DEBUG: [logger.js:246:9] SQL -> select id, username, password
+                from test.user
+                where user= ? and password = ?
+2025-08-28 09:18:31.186 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? and password = ?' at line 3

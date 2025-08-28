@@ -1,0 +1,479 @@
+2025-08-26 09:35:53.155 - INFO: [logger.js:246:9] service loader called.
+2025-08-26 09:35:53.168 - INFO: [logger.js:246:9] controller loader called.
+2025-08-26 09:35:53.168 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-26 09:35:53.169 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-26 09:35:53.374 - INFO: [logger.js:246:9] Http Server started.
+2025-08-26 09:35:53.374 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-26 09:35:53.375 - INFO: [logger.js:246:9] Namespace -> ::_8001_11516
+2025-08-26 09:35:53.378 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-26 09:35:57.957 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 09:35:57.958 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 09:35:57.959 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 09:35:57.981 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 09:35:57.983 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 09:39:25.109 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 09:39:25.109 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 09:39:25.110 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 09:39:25.111 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 09:39:25.112 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 09:39:40.108 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 09:39:40.108 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 09:39:40.109 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 09:39:40.110 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 09:39:40.111 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 09:39:52.781 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 09:39:52.782 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 09:39:52.783 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 09:39:52.784 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 09:39:52.786 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 09:47:20.338 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 09:47:20.338 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 09:47:20.338 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 09:47:20.340 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 09:47:20.341 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 09:47:23.523 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 09:47:23.523 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 09:47:23.524 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 09:47:23.525 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 09:47:23.526 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 09:48:28.616 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 09:48:28.617 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 09:48:28.617 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 09:48:28.618 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 09:48:28.619 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 09:52:45.349 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 09:52:45.349 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 09:52:45.350 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 09:52:45.351 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 09:52:45.352 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:35:18.406 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:35:18.406 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:35:18.406 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:35:18.408 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:35:18.409 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:35:47.701 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:35:47.702 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:35:47.702 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:35:47.703 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:35:47.705 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:36:12.508 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:36:12.509 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:36:12.509 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:36:12.510 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:36:12.511 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:36:12.856 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:36:12.856 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:36:12.857 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:36:12.858 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:36:12.859 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:36:43.754 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:36:43.754 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:36:43.755 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:36:43.756 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:36:43.756 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:36:48.400 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:36:48.400 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:36:48.401 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:36:48.402 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:36:48.403 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:37:21.613 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:37:21.613 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:37:21.614 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:37:21.615 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:37:21.615 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:37:28.348 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:37:28.348 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:37:28.348 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:37:28.350 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:37:28.351 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:37:40.879 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:37:40.880 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:37:40.880 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:37:40.881 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:37:40.881 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:37:49.425 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:37:49.425 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:37:49.426 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:37:49.427 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:37:49.428 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:37:52.236 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:37:52.236 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:37:52.237 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:37:52.238 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:37:52.239 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:37:54.203 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:37:54.204 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:37:54.204 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:37:54.210 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:37:54.212 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:38:06.943 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:38:06.944 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:38:06.945 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:38:06.946 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:38:06.948 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:38:09.107 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:38:09.108 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:38:09.109 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:38:09.111 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:38:09.112 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:38:21.888 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:38:21.888 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:38:21.889 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:38:21.890 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:38:21.891 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:38:28.280 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:38:28.280 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:38:28.281 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:38:28.282 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:38:28.283 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:38:40.332 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:38:40.333 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:38:40.336 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:38:40.337 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:38:40.338 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:38:47.497 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:38:47.497 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:38:47.498 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:38:47.499 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:38:47.499 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:38:52.075 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:38:52.075 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:38:52.075 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:38:52.077 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:38:52.077 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:38:55.102 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:38:55.102 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:38:55.103 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:38:55.104 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:38:55.105 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:39:04.952 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:39:04.952 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:39:04.953 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:39:04.954 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:39:04.955 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:39:11.819 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:39:11.820 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:39:11.820 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:39:11.822 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:39:11.825 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:39:16.094 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:39:16.094 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:39:16.095 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:39:16.097 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:39:16.099 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:39:24.806 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:39:24.807 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:39:24.807 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:39:24.808 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:39:24.809 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:39:34.232 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:39:34.233 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:39:34.233 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:39:34.235 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:39:34.236 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:39:49.353 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:39:49.354 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:39:49.354 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:39:49.355 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:39:49.355 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:39:50.935 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:39:50.936 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:39:50.936 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:39:50.937 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:39:50.938 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:39:54.380 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:39:54.382 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:39:54.382 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:39:54.384 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:39:54.385 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:39:55.735 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:39:55.735 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:39:55.736 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:39:55.737 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:39:55.738 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:40:00.369 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:40:00.370 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:40:00.370 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:40:00.371 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:40:00.372 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:40:05.847 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:40:05.848 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:40:05.848 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:40:05.850 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:40:05.850 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:40:16.365 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:40:16.365 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:40:16.366 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:40:16.366 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:40:16.367 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:41:09.655 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:41:09.656 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:41:09.656 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:41:09.657 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:41:09.658 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:41:20.486 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:41:20.487 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:41:20.487 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:41:20.489 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:41:20.489 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:41:21.907 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:41:21.908 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:41:21.908 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:41:21.909 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:41:21.910 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:41:25.894 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:41:25.894 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:41:25.895 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:41:25.896 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:41:25.897 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:41:29.680 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:41:29.681 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:41:29.681 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:41:29.684 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:41:29.687 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:41:32.891 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:41:32.893 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:41:32.893 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:41:32.895 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:41:32.896 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:45:59.287 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:45:59.288 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:45:59.288 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:45:59.289 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:45:59.290 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:46:14.320 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:46:14.321 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:46:14.322 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:46:14.324 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:46:14.325 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:55:32.466 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:55:32.466 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:55:32.467 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:55:32.468 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:55:32.469 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:56:21.432 - DEBUG: [logger.js:246:9] POST /profile/upload requested
+2025-08-26 10:56:21.432 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-26 10:56:21.433 - DEBUG: [logger.js:246:9] FILES
+2025-08-26 10:56:21.433 - DEBUG: [logger.js:246:9] [{"fieldname":"photo","originalname":"cat1.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"uploads","filename":"cat11756173381430.jpg","path":"uploads\\cat11756173381430.jpg","size":4920}]
+2025-08-26 10:56:21.441 - DEBUG: [logger.js:246:9] File copied to C:\Users\LX\server\ubiaccess-framework\controllers/../public/images/cat11756173381430.jpg
+2025-08-26 10:56:58.316 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:56:58.317 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:56:58.317 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:56:58.318 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:56:58.319 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:57:18.994 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:57:18.995 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:57:18.995 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:57:18.997 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:57:18.997 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 10:57:25.429 - DEBUG: [logger.js:246:9] POST /profile/upload requested
+2025-08-26 10:57:25.429 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-26 10:57:25.430 - DEBUG: [logger.js:246:9] FILES
+2025-08-26 10:57:25.430 - DEBUG: [logger.js:246:9] [{"fieldname":"photo","originalname":"cat1.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"uploads","filename":"cat11756173445428.jpg","path":"uploads\\cat11756173445428.jpg","size":4920}]
+2025-08-26 10:57:25.431 - DEBUG: [logger.js:246:9] File copied to C:\Users\LX\server\ubiaccess-framework\controllers/../public/images/cat11756173445428.jpg
+2025-08-26 10:58:31.415 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 10:58:31.416 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 10:58:31.416 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 10:58:31.417 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 10:58:31.417 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 11:00:20.388 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 11:00:20.389 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 11:00:20.390 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 11:00:20.391 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 11:00:20.392 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 11:08:06.140 - DEBUG: [logger.js:246:9] POST /profile/upload requested
+2025-08-26 11:08:06.141 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-26 11:08:06.141 - DEBUG: [logger.js:246:9] FILES
+2025-08-26 11:08:06.141 - DEBUG: [logger.js:246:9] [{"fieldname":"photo","originalname":"dog2.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"uploads","filename":"dog21756174086139.jpg","path":"uploads\\dog21756174086139.jpg","size":6369}]
+2025-08-26 11:08:06.142 - DEBUG: [logger.js:246:9] File copied to C:\Users\LX\server\ubiaccess-framework\controllers/../public/images/dog21756174086139.jpg
+2025-08-26 11:08:06.147 - DEBUG: [logger.js:246:9] Animal::add 호출됨
+2025-08-26 11:08:06.148 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-26 11:08:06.148 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"dog","name":"강아지1","age":"2","mobile":"010-2000-2000","path":"/images/dog21756174086139.jpg"}
+2025-08-26 11:08:06.159 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+                values
+                ('dog', '강아지1', '2', '010-2000-2000', '/images/dog21756174086139.jpg')
+2025-08-26 11:08:06.170 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 11:08:06.170 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 11:08:06.171 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 11:08:06.173 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 11:08:06.174 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 11:09:17.585 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 11:09:17.586 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 11:09:17.587 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 11:09:17.590 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 11:09:17.591 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 11:10:21.743 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 11:10:21.744 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 11:10:21.745 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 11:10:21.746 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 11:10:21.748 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 11:10:32.140 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 11:10:32.140 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 11:10:32.141 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 11:10:32.143 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 11:10:32.145 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 11:10:52.779 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 11:10:52.780 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 11:10:52.782 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 11:10:52.784 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 11:10:52.785 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 11:11:05.751 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 11:11:05.752 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 11:11:05.753 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 11:11:05.754 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 11:11:05.756 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 11:11:35.298 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 11:11:35.299 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 11:11:35.301 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 11:11:35.302 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 11:11:35.303 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 11:11:46.616 - DEBUG: [logger.js:246:9] Animal::remove  호출됨
+2025-08-26 11:11:46.617 - DEBUG: [logger.js:246:9] POST /animal/v1/remove requested
+2025-08-26 11:11:46.618 - DEBUG: [logger.js:246:9] PARAMS -> {"id":8}
+2025-08-26 11:11:46.620 - DEBUG: [logger.js:246:9] SQL -> delete from test.animal
+                where id = '8'
+2025-08-26 11:11:46.631 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 11:11:46.632 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 11:11:46.632 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 11:11:46.633 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 11:11:46.635 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10
+2025-08-26 11:12:12.164 - DEBUG: [logger.js:246:9] POST /profile/upload requested
+2025-08-26 11:12:12.165 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-26 11:12:12.166 - DEBUG: [logger.js:246:9] FILES
+2025-08-26 11:12:12.168 - DEBUG: [logger.js:246:9] [{"fieldname":"photo","originalname":"dog2.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"uploads","filename":"dog21756174332163.jpg","path":"uploads\\dog21756174332163.jpg","size":6369}]
+2025-08-26 11:12:12.168 - DEBUG: [logger.js:246:9] File copied to C:\Users\LX\server\ubiaccess-framework\controllers/../public/images/dog21756174332163.jpg
+2025-08-26 11:12:12.173 - DEBUG: [logger.js:246:9] Animal::add 호출됨
+2025-08-26 11:12:12.173 - DEBUG: [logger.js:246:9] POST /animal/v1/add requested
+2025-08-26 11:12:12.174 - DEBUG: [logger.js:246:9] PARAMS -> {"type":"dog","name":"강아지","age":"3","mobile":"010-2000-2000","path":"http://localhost:8001/images/dog21756174332163.jpg"}
+2025-08-26 11:12:12.178 - DEBUG: [logger.js:246:9] SQL -> insert into test.animal(type, name, age, mobile, path)
+                values
+                ('dog', '강아지', '3', '010-2000-2000', 'http://localhost:8001/images/dog21756174332163.jpg')
+2025-08-26 11:12:12.189 - DEBUG: [logger.js:246:9] Animal::list 호출됨
+2025-08-26 11:12:12.189 - DEBUG: [logger.js:246:9] POST /animal/v1/list requested
+2025-08-26 11:12:12.190 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":10}
+2025-08-26 11:12:12.191 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.animal
+2025-08-26 11:12:12.192 - DEBUG: [logger.js:246:9] SQL -> select id, type, name, age, mobile, path
+                from test.animal limit 0, 10

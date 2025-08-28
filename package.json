@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ubiaccess-framework": "^1.2.1"
+    "ubiaccess-framework": "file:ubiaccess-framework"
   },
   "repository": {
     "type": "git",

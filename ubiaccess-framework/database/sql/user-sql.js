@@ -19,7 +19,7 @@ module.exports ={
     user_read: {
         sql: `select id, username, password
                 from test.user
-                where id= :id`
+                where username= :username and password = :password`
     },
 
     // 고객 데이터 추가
